@@ -215,6 +215,26 @@ blockquote {
 	}
 }
 
+
+nav ul {
+	text-align: center;
+}
+
+
+nav ul li {
+	border: dashed #989898;
+	border-width: 0 0 1px;
+	display: inline-block;
+	margin: 0 1em;
+	padding: 0 1em;
+}
+
+nav ul li a:link, a:visited  {
+	text-decoration: none;
+}
+
+
+
 /* ======================================
    4. Page content
    ====================================== */
