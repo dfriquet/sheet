@@ -6,6 +6,22 @@
 		{{#if @blog.description}}
 		<p class="sheet-sidebar-desc">{{@blog.description}}</p>
 		{{/if}}
-		<div class="sheet-sidebar-subscribe"><a class="sheet-btn" href="{{@blog.url}}/rss/"><i class="fa fa-rss-square"></i> <span>Subscribe</span></a></div>
+	</div>
+
+	<div id="social-accounts" class="sheet-panel sheet-sidebar">
+		<ul>
+			<li><a href="http://www.instagram.com/letsgosweetie"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="http://www.twitter.com/r4spberry_"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="{{@blog.url}}/rss/"><i class="fa fa-rss-square"></i></a></li>
+		</ul>
+	</div>
+
+	<div class="sheet-panel sheet-sidebar">
+		<p>À lire aussi :</p>
+		<ul>
+			<li><a href="#">Premier blog</a></li>
+			<li><a href="#">Second blog</a></li>
+			<li><a href="#">Troisième blog avec un titre vraiment long</a></li>
+		</ul>
 	</div>
 </div>

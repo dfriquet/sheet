@@ -357,6 +357,32 @@ a.sheet-post:hover, a.sheet-post:hover .sheet-post-title {
 	margin-top: 20px;
 }
 
+.sheet-sidebar p {
+	font-size: 14px;
+}
+
+.sheet-sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sheet-sidebar ul li {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+#social-accounts ul {
+	text-align: center;
+}
+
+#social-accounts ul li {
+	display: inline-block;
+	font-size: 32px;
+	margin: 0 0.4em;
+}
+
 /* pagination */
 
 .sheet-newer-posts {
