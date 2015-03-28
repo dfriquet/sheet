@@ -198,14 +198,14 @@ blockquote {
 
 @media screen and (min-width: 480px) {
 	.sheet-header-title, .sheet-header-secondary {
-		font-size: 28px;
+		margin: 1.5em 0;
 		text-align: center;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.sheet-header-title {
-		font-size: 64px;
+		margin: 4em 0;
 		text-align: left;
 	}
 
@@ -217,6 +217,8 @@ blockquote {
 
 
 nav ul {
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
 
